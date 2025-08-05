@@ -72,7 +72,7 @@ export default function LoginForm() {
                   href="/login/forgot-account"
                   className="link intent-info variant-ghost text-sm"
                 >
-                  Forgot your Account ?
+                  Forgot your Account?
                 </Link>
               </Button>
             </div>
