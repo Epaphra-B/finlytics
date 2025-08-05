@@ -1,6 +1,5 @@
 import { ArrowLeft, LogOut, LucideProps } from "lucide-react";
 
-
 export const Icons = {
   arrowLeft: ArrowLeft,
   logOut: LogOut,

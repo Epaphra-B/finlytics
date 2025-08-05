@@ -8,6 +8,7 @@ import { Button } from '@/components/ui/button'
 import { Menu, X } from 'lucide-react'
 import Image from 'next/image'
 
+
 const menuItems = [
     { name: 'Features', href: '#' },
     { name: 'Solution', href: '#' },
@@ -100,8 +101,8 @@ export default function HeroSection() {
                             <Button
                                 asChild
                                 size="lg">
-                                <Link href="#">
-                                    <span className="btn-label">Start Building</span>
+                                <Link href={'/login'}>
+                                    <span className="btn-label">Get Started</span>
                                 </Link>
                             </Button>
                         </div>
