@@ -8,5 +8,5 @@ export const {
   resetPassword,
 } = createAuthClient({
   /** the base url of the server (optional if you're using the same domain) */
-  baseURL: "https://finlytics-two.vercel.app",
+  // baseURL: "http://localhost:3000",
 });

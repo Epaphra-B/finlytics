@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { betterFetch } from "@better-fetch/fetch";
-import type { auth } from "@/lib/auth";
+import type { auth } from "@lib/auth";
 
 type Session = typeof auth.$Infer.Session;
 
